@@ -42,6 +42,8 @@
 .nav-list li a{
     text-decoration: none;
     color: white;
+    font-size: 20px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
 .nav-list li a:hover{
@@ -126,9 +128,24 @@
     vertical-align: middle;
 }
 
+.btn-dark{
+    color: black;
+    border: grey;
+}
+
+.btn-form-submit{
+    width: 50%;
+    padding: 8px 20px;
+    margin: 0 25%;
+    border: 2px solid black;
+    border-radius:8px;
+    background:none;
+    cursor: pointer;
+}
+
 .section{
     padding: 0px 0px 0px 25px;
-    height: 500px;
+    height: 500px; 
     display: flex;
     align-items: center;
     justify-content: space-evenly;
@@ -161,16 +178,18 @@
 
 .contact{
     background-color: #f6f5f4;
-    height: 50vh;
+    height: 500px;
 }
 
 .text-center{
     text-align: center;
+    padding: 7px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
 .form{
-    max-width: 344px;
-    margin: auto;
+    max-width: 1200px;
+    margin: 25px auto;
 }
 .form input{
     margin: 14px 0;
@@ -179,4 +198,13 @@
     font-size:19px;
     border:2px solid grey;
     border-radius: 6px;
+}
+
+.text-footer{
+    text-align: center;
+    padding: 7px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    display: flex;
+    justify-content: center;
+    color:white;
 }
